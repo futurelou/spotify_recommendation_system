@@ -6,8 +6,8 @@ from spotipy import util
 import time
 
 # api keys
-cid= '4d44f8fdbc9a49fc9a0ac0c86a282ac8'
-sid = '42e06847d2fd442caa985d8bf966a3a4'
+cid= "key"
+sid = "key"
 
 # quering from the database
 engine = sqlalchemy.create_engine('mssql+pyodbc://@' + 'LOUIS-PC' + '/' + 'songs' + '?trusted_connection=yes&driver=ODBC Driver 17 for SQL Server')
