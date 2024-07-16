@@ -5,8 +5,8 @@ from getsongname import return_song
 import spotipy
 from spotipy import util
 
-cid= '4d44f8fdbc9a49fc9a0ac0c86a282ac8'
-secret = '42e06847d2fd442caa985d8bf966a3a4'
+cid= 'Place Holder'
+secret = 'Place Holder'
 
 userdata = getuserdata(cid,secret)
 musicdata = pd.read_csv('musicdata')
